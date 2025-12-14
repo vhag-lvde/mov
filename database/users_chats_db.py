@@ -11,7 +11,7 @@ class Database:
         # Collections
         self.col = self.db.users
         self.grp = self.db.groups
-        self.users = self.db.uersz
+        self.users = self.db.users
         self.req = self.db.requests
         self.botcol = self.db.bot_settings
         self.misc = self.db.misc
