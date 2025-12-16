@@ -456,7 +456,17 @@ async def stream_buttons(user_id: int, file_id: str):
             ]
     else:
         return [[InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]]
+        
+@Client.on_message(filters.command("cleargroups") & filters.user(ADMINS))
+async def clear_groups(_, message):
+    try:
+        await db.grp.delete_many({})
+        await db.settings_col.delete_many({})
+        await message.reply_text("✅ All group data cleared successfully.")
+    except Exception as e:
+        await message.reply(f"❌ Error clearing group: {e}")
     
+
 @Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
     """Send log file"""
