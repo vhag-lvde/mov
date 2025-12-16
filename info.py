@@ -54,14 +54,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/af_support_chat')  # Su
 
 # FORCE_SUB 
  
-auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002184167100")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "-1002378415644")# Channels for force sub (make sure bot is admin)
+auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002134056982")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
+auth_channels     = environ.get("AUTH_CHANNELS", "-1002378415644 -1002184167100")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')    # QR code image for payments
+QR_CODE = environ.get('QR_CODE', 'https://t.me/Dark_froxt_bot?text=I%20Need%20Premium%20in%20MOVIE%20Bot')    # QR code image for payments
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
