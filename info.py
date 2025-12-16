@@ -61,7 +61,7 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-1002378415644 -1002184167100"
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://t.me/Dark_froxt_bot?text=I%20Need%20Premium%20in%20MOVIE%20Bot')    # QR code image for payments
+QR_CODE = environ.get('QR_CODE', 'https://t.me/AF_feedbot?text=I%20Need%20Premium%20in%20MOVIE%20Bot')    # QR code image for payments
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
@@ -123,7 +123,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+JdRUqgm9Xvk3MWJl') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://www.google.com/') # Owner link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AF_feedbot') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://www.google.com/') # Update channel link for the bot
 
 # ============================
