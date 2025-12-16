@@ -54,8 +54,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/af_support_chat')  # Su
 
 # FORCE_SUB 
  
-auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002378415644")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "-1002184167100")# Channels for force sub (make sure bot is admin)
+auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002184167100")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
+auth_channels     = environ.get("AUTH_CHANNELS", "-1002378415644")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # ============================
@@ -107,13 +107,13 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howto_open_short_link/31") 
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howto_open_short_link/31")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "a7ac9b3012c67d7491414cf272d82593c75f6cbb") # Shortener API key
+SHORTENER_API = environ.get("SHORTENER_API", "7232f455e4aa31ff9d4f331d9f467a8173870c23") # Shortener API key
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")  # Shortener API key for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "7232f455e4aa31ff9d4f331d9f467a8173870c23")  # Shortener API key for second website
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks.com") # Shortener website for second website
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")  
+SHORTENER_API3 = environ.get("SHORTENER_API3", "7232f455e4aa31ff9d4f331d9f467a8173870c23")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arolinks.com") # Shortener website for third website
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "54000")) # Time gap for two-step verification in seconds (default: 20 minutes)
